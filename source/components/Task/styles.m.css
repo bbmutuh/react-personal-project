@@ -1,5 +1,7 @@
 @import '../../theme/breakpoints';
-
+.task2 {
+    opacity: .5;
+}
 .task {
     position: relative;
     display: flex;
@@ -21,7 +23,7 @@
     & .content {
         display: flex;
         align-items: center;
-        width: 85%;
+        width: 80%;
 
         & .toggleTaskCompletedState {
             margin-right: 20px;
@@ -68,7 +70,7 @@
     }
 }
 
-.completed {
+[data="completed"] {
     background-color: var(--paletteColor8);
     color: var(--paletteColor9);
 

@@ -9,6 +9,9 @@ import {
 } from './setup';
 import { BaseTaskModel } from '../../../instruments';
 import { api } from '../../../REST';
+import {shallow} from "enzyme/build";
+import Spinner from "../../Spinner";
+import React from "react";
 
 jest.mock('../../../REST');
 
